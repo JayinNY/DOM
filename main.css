@@ -1,0 +1,40 @@
+/* commented out the rule that took outthe padding and margin
+*{
+    margin:0;
+    padding:0;
+}
+*/
+
+body{
+   font-family:Helvetica, Arial, Verdana, sans-serif;
+    margin-top:0;
+    color:white;
+    background-color:black;
+}
+
+h1{
+    font-size:3em;
+    padding:50px;
+    
+}
+#theSecondClick{
+    width:656px;
+    height:248px;
+    font-size:1em;
+}
+
+main{
+    float:left;
+    margin-left:10%;
+}
+
+footer{
+    clear:both;
+    padding:25px;
+    text-align:center;
+    border-top:1px solid gray;
+}
+footer h6{
+       color:dimgray;
+       letter-spacing:2px;
+}
